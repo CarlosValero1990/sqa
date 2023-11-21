@@ -1,0 +1,1 @@
+gradle test --tests *uTest.runners.agregarProducto aggregate & cd target/site/serenity & index.html
