@@ -5,6 +5,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import net.serenitybdd.screenplay.actions.Open;
 import net.serenitybdd.screenplay.actors.OnStage;
 import pruebaPagina.models.constantes;
+import pruebaPagina.tasks.agregarProductoTask;
 
 public class agregarProductoStepsDefinitions {
 
@@ -17,9 +18,9 @@ public class agregarProductoStepsDefinitions {
 
     }
     @Cuando("seleccione el producto")
-    public void seleccioneElProducto() {
-
+    public void seleccioneElProducto() {OnStage.theActorInTheSpotlight().attemptsTo(agregarProductoTask.onThePage());
     }
+
     @Entonces("lo agrega al carrito de compras")
     public void loAgregaAlCarritoDeCompras() {
 

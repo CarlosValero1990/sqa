@@ -9,7 +9,6 @@ public class agregarProductoUI {
     public static final Target SEGUNDO_PRODUCTO = Target.the("Agregar segundo producto").locatedBy("//*[@class='attachment-woocommerce_thumbnail size-woocommerce_thumbnail']");
     public static final Target TERCER_PRODUCTO = Target.the("Agregar tercer producto").locatedBy("//*[contains(text(),'Presente')]");
     public static final Target CUARTO_PRODUCTO = Target.the("Agregar segundo producto").locatedBy("//*[contains(text(),'Reino de sueños')]");
-
     public static final Target QUINTO_PRODUCTO = Target.the("Agregar segundo producto").locatedBy("//*[contains(text(),'Universo encantado')]");
 
 
